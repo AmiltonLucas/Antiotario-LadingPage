@@ -1,0 +1,49 @@
+@import url(header.css);
+@import url(main.css);
+@import url(animations.css);
+
+:root {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  --lighteffect-color: #e04f12;
+  --lighteffect-color-2: #ad2c2b;
+  --lighteffect-color-3: #411361;
+  --lighteffect-color-4: #72203a;
+  --background-color-3: #1b1b1b;
+  --background-color-2: #0e0e0f;
+  --background-color: #010101;
+  --text-color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  background-color: var(--background-color);
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  background: none;
+  border: none;
+}
